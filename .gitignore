@@ -1,5 +1,4 @@
-# Maven
-target/
+# Maven (keep target/ tracked per user request)
 pom.xml.tag
 pom.xml.releaseBackup
 *.jar
@@ -7,13 +6,9 @@ pom.xml.releaseBackup
 *.ear
 !.mvn/wrapper/maven-wrapper.jar
 
-# Test output
-test-output/
-
 # IDE
 .idea/
 *.iml
-.vscode/
 *.swp
 *.swo
 *~

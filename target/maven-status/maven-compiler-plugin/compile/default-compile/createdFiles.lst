@@ -1,0 +1,4 @@
+com\tic\pages\LoginPage.class
+com\tic\utils\ExtentReportManager.class
+com\tic\pages\BasePage.class
+com\tic\utils\ScreenshotUtils.class
