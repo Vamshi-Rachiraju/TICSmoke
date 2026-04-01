@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="TICSmoke Suite" verbose="1">
-    <test name="Login Tests">
-        <classes>
-            <class name="com.tic.tests.LoginTest"/>
-        </classes>
+<suite name="TICSmoke TestNG Suite" verbose="2" parallel="none" thread-count="1">
+    <!--
+      Run: mvn test
+      Or from IDE: right-click this file → Run TestNG Suite (if TestNG plugin installed)
+      All classes under com.tic.tests are discovered automatically.
+    -->
+    <test name="Smoke Tests" preserve-order="true">
+        <packages>
+            <package name="com.tic.tests"/>
+        </packages>
     </test>
 </suite>
